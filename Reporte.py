@@ -5,7 +5,7 @@ from streamlit_pandas_profiling import st_profile_report
 from pandas_profiling import ProfileReport
 
 
-df = pd.read_excel("Imp_m&m.xlsx", na_values=['='])
+df = pd.read_csv("Data limpia.csv", na_values=['='])
 
 profile = ProfileReport(df, title="Importacion Chocolates", dataset={
         "description": "Este es mi primer reporte con Streamlit",
