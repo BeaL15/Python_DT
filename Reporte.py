@@ -14,6 +14,22 @@ profile = ProfileReport(df, title="Importacion Chocolates", dataset={
     variables={
         "descriptions": {
            "Partida aduanera" : "Partida aduanera"
+           "Descripcion de la Partida Aduanera" : "Descripcion de la partida aduanera"
+           "Importador" : "Importador"
+           "Kg Bruto" : "Kg bruto"
+           "Kg Neto" : "Kg neto"
+           "U$ FOB Tot" : "U$ Fob"
+           "Pais de Origen" : "Pais de Origen"
+           "Via" : "Via"
+           "Agente de Aduana" : "Agente de aduana"
+           "Almacen" : "Almacen"
+           "Descripcion Comercial" : "Descripcion"
+           "Ad Valorem" : "Ad Valorem"
+           "IGV" : "Igv"
+           "IPM" : "Ipm"
+           "Canal" : "Canal"
+           "Año" : "Año"
+           "mes_e": "Mes"
         }
     }
 )
